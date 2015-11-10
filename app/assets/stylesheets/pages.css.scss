@@ -32,7 +32,7 @@ font-weight:bold;
 margin-left:-50px;
 }
 
-.btn {
+.main a {
 padding:15px 35px 15px 35px;
 background-color:#00215B;
 color:#86A9CA;
@@ -41,7 +41,7 @@ font-weight:bold;
 
 }
 
-.btn:hover {
+.main a:hover {
 //background-color:#22A8E9;
 background-color:#86A9CA;
 color:#00215B;
@@ -169,13 +169,49 @@ padding-left:100px;
 
 }
 
+
+//---------------------
+
+
 .jumbotron {
 background-image:url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
 background-size:cover;
 height:650px;
 }
 
+//------------------------
 
+
+
+.btn3 {
+padding:15px 35px 15px 35px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:20px;
+font-weight:bold;
+
+}
+
+.btn3:hover {
+//background-color:#22A8E9;
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}
+
+.supporting-about{
+font-family: 'Josefin Sans', sans-serif;
+text-align:center;
+margin-top:100px;
+margin-bottom:150px;
+}
+
+.supporting-about h1, .supporting-about h4 {
+margin-bottom:50px;
+}
+
+
+//-------------------------
 .footer {
 background-color:#F9F9F9;
 text-align:center;
