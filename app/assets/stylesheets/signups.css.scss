@@ -1,0 +1,43 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main_sign {
+background-image:url(http://images.all-free-download.com/images/graphiclarge/blue_abstract_background_310971.jpg);
+background-size:cover;
+height:650px;
+padding-top:150px;
+}
+
+.forms {
+text-align:left;
+}
+
+
+.fields h4 {
+font-weight:bold;
+margin-bottom:0px;
+
+}
+
+.field {
+height:40px;
+width:100%;
+}
+
+.buttn {
+padding:4px 18px 4px 18px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:18px;
+font-weight:bold;
+margin-top:10px;
+
+}
+
+.buttn:hover {
+//background-color:#22A8E9;
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}

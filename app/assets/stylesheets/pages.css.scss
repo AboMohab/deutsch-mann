@@ -26,22 +26,25 @@ color:#01164B;
 .add {
 text-size:40px;
 font-weight:bold;
+margin-bottom:20px;
 }
 
 .main2 a {
 margin-left:-50px;
 }
 
-.btn {
-padding:15px 35px 15px 35px;
+.main a {
+padding:10px 25px 10px 25px;
 background-color:#00215B;
 color:#86A9CA;
 font-size:20px;
 font-weight:bold;
+border-radius:3px;
+
 
 }
 
-.btn:hover {
+.main a:hover {
 //background-color:#22A8E9;
 background-color:#86A9CA;
 color:#00215B;
@@ -70,16 +73,17 @@ margin-bottom:40px;
 margin-top:100px;
 }
 
-.btn2 {
-padding:15px 35px 15px 35px;
+.discover a {
+padding:10px 25px 10px 25px;
 background-color:#00215B;
 color:#86A9CA;
 font-size:20px;
 font-weight:bold;
+border-radius:3px;
 
 }
 
-.btn2:hover {
+.discover a:hover {
 //background-color:#22A8E9;
 background-color:#86A9CA;
 color:#00215B;
@@ -142,8 +146,8 @@ text-align:left;
   padding-left: 25px;
   padding-top: 25px;
   text-decoration: none;
-  text-transform: uppercase;
- display:inline;
+  text-transform: capitalize;
+  display:inline;
   margin-left:-20px;
   
 }
@@ -169,13 +173,68 @@ padding-left:100px;
 
 }
 
+
+//---------------------
+
+
 .jumbotron {
-background-image:url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
+//background-image:url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
+background-image: url(http://freedesignfile.com/upload/2014/03/3D-square-abstract-background-vector-material-04.jpg);
 background-size:cover;
 height:650px;
 }
 
+//------------------------
 
+
+
+.btn3 {
+padding:10px 25px 10px 25px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:20px;
+font-weight:bold;
+border-radius:3px;
+
+}
+
+.btn3:hover {
+//background-color:#22A8E9;
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}
+
+.supporting-about{
+font-family: 'Josefin Sans', sans-serif;
+text-align:center;
+margin-top:100px;
+margin-bottom:150px;
+}
+
+.supporting-about h1, .supporting-about h4 {
+margin-bottom:50px;
+}
+
+
+
+//-------------------------------thanks.html.erb
+.main-thnks{
+background-image:url(http://images.all-free-download.com/images/graphiclarge/blue_abstract_background_310971.jpg);
+background-size:cover;
+height:650px;
+padding-top:150px;
+text-align:center;
+}
+
+.main-thnks h1 {
+font-weight:bold;
+font-size:40px;
+}
+
+
+
+//-------------------------
 .footer {
 background-color:#F9F9F9;
 text-align:center;
