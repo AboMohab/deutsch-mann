@@ -35,11 +35,11 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-<<<<<<< HEAD
+
     coffee-script-source (1.8.0)
-=======
+
     coffee-script-source (1.9.1.1)
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
     erubis (2.7.0)
     execjs (2.6.0)
     hike (1.2.3)
@@ -55,16 +55,15 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-<<<<<<< HEAD
     minitest (5.8.3)
     multi_json (1.11.2)
     pg (0.18.1)
     pg (0.18.1-x64-mingw32)
-=======
+
     minitest (5.8.2)
     multi_json (1.11.2)
     pg (0.18.1)
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
     polyglot (0.3.5)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -101,11 +100,11 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-<<<<<<< HEAD
+
     spring (1.5.0)
-=======
+
     spring (1.4.1)
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -116,10 +115,10 @@ GEM
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
     sqlite3 (1.3.11)
-<<<<<<< HEAD
+
     sqlite3 (1.3.11-x64-mingw32)
-=======
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
+
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
@@ -130,28 +129,27 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-<<<<<<< HEAD
+
     tzinfo-data (1.2015.7)
       tzinfo (>= 1.0.0)
-=======
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
 PLATFORMS
   ruby
-<<<<<<< HEAD
+
   x64-mingw32
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
-=======
+
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
   jbuilder (~> 2.0)
   jquery-rails
   pg (= 0.18.1)
@@ -162,12 +160,12 @@ DEPENDENCIES
   spring
   sqlite3
   turbolinks
-<<<<<<< HEAD
+
   tzinfo-data
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
    1.10.6
-=======
+
   uglifier (>= 1.3.0)
->>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
+
