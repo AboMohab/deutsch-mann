@@ -40,6 +40,9 @@ gem 'rails_12factor', group: :production
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+<<<<<<< HEAD
 gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
 
 gem 'coffee-script-source','1.8.0'
+=======
+>>>>>>> fe556d18011377b2eca7b1ac773c341d4b3ac322
