@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stories</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+   
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+       <!-- <li><a href="#">Home</a></li> -->
+        <li><%= link_to root_path do %>Home<%end%></li>
+     <!--   <li><a href="#">About</a></li> -->
+        <li><%= link_to pages_about_path do %>About<%end%></li>
+
+        <!--<li><a href="#">Contact</a></li>-->
+        <li><%= link_to signups_new_path do %>Contact<%end%></li>
+
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Help</a></li>
+        
+      </ul>
+    </div>
+  
+  <div class="header">
+     <div class="icon-menu">
+ 
+           <img src ="https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-black.svg" />
+           
+      <!--  <i class="fa fa-bars"></i> -->
+  			 <h4>  Menu</h4>
+    </div>
+  </div>
+   
+<%= yield %>
+
+    
+    
+  <div class="footer">
+  <p>ABO MOHAB PROJECT 2015</p>
+</div>
+  
+  
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="javascripts/jquery.js"></script>
+    <!-- Include the Sidr JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   
+</body>
+</html>

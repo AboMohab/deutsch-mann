@@ -1,0 +1,245 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+margin:0px;
+padding:0px;
+overflow: auto;
+position: relative;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+background-image:url(http://www.free-vector-design.com/wp-content/uploads/2012/07/abstract-light-background-8.jpg);
+background-size:cover;
+height:650px;
+text-align:right;
+padding-top:230px;
+color:#01164B;
+
+}
+
+.add {
+text-size:40px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.main2 a {
+margin-left:-50px;
+}
+
+.main a {
+padding:10px 25px 10px 25px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:20px;
+font-weight:bold;
+border-radius:3px;
+
+
+}
+
+.main a:hover {
+
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}
+
+.supporting{
+font-family: 'Josefin Sans', sans-serif;
+text-align:center;
+}
+
+.supporting-sec{
+background-image:url(http://travelchannel.sndimg.com/content/dam/images/travel/fullset/2011/09/30/42/idea_ss_top-10_thailand-adventures_001_596x334);
+background-size:cover;
+height:450px;
+}
+
+.discover {
+text-align:center;
+margin-bottom:100px;
+}
+
+.discover h2 {
+font-size:40px;
+margin-bottom:40px;
+margin-top:100px;
+}
+
+.discover a {
+padding:10px 25px 10px 25px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:20px;
+font-weight:bold;
+border-radius:3px;
+
+}
+
+.discover a:hover {
+
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}
+
+
+
+.col-md-2 {
+text-align:left;
+}
+
+.menu {
+  background: #00215B url('http://7-themes.com/data_images/out/76/7030767-3d-background-wallpaper.jpg') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.header .icon-menu {
+
+  color: #00215B;
+  cursor: pointer;
+  font-size: 18px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display:inline;
+  margin-left:-20px;
+  
+}
+
+.icon-menu i {
+   margin-left:-20px;
+  
+}
+
+.header .icon-menu img {
+margin-top:-10px;
+display:inline;
+height:17px;
+}
+.header .icon-menu h4
+{
+display:inline;
+}
+.header {
+margin-bottom:-77px;
+padding-top:50px;
+padding-left:100px;
+
+}
+
+
+
+
+
+.jumbotron {
+//background-image:url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
+background-image: url(http://freedesignfile.com/upload/2014/03/3D-square-abstract-background-vector-material-04.jpg);
+background-size:cover;
+height:650px;
+}
+
+
+
+
+.btn3 {
+padding:10px 25px 10px 25px;
+background-color:#00215B;
+color:#86A9CA;
+font-size:20px;
+font-weight:bold;
+border-radius:3px;
+
+}
+
+.btn3:hover {
+
+background-color:#86A9CA;
+color:#00215B;
+text-decoration:none;
+}
+
+.supporting-about{
+font-family: 'Josefin Sans', sans-serif;
+text-align:center;
+margin-top:100px;
+margin-bottom:150px;
+}
+
+.supporting-about h1, .supporting-about h4 {
+margin-bottom:50px;
+}
+
+
+
+
+.main-thnks{
+background-image:url(http://images.all-free-download.com/images/graphiclarge/blue_abstract_background_310971.jpg);
+background-size:cover;
+height:650px;
+padding-top:150px;
+text-align:center;
+}
+
+.main-thnks h1 {
+font-weight:bold;
+font-size:40px;
+}
+
+
+
+
+.footer {
+background-color:#F9F9F9;
+text-align:center;
+height:100px;
+}
+
+.footer p {
+padding-top:35px;
+
+}
+
